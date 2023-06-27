@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#7041EE</color>
+    <color name="secondary_color">#DB00FF</color>
+    <color name="active_nav_color">#000000</color>
+    <color name="font_color_1">#8F00FF</color>
+    <color name="black_dark">#2E2727</color>
+    <color name="black_lite">#2C2929</color>
+    <color name="black_lite_2">#9098B1</color>
+    <color name="sky_color_1">#4285F4</color>
+    <color name="font_color_4">#8000FF</color>
+    <color name="font_color_5">#8000FF</color>
+    <color name="navi_blue">#223263</color>
+    <color name="red_lite">#FB7181</color>
+
+
+
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

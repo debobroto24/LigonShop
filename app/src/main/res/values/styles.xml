@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyButtonStyle">
+        <item name="android:textColor">#fff</item>
+        <item name="android:backgroundTint">#000</item>
+        <item name="android:textSize">16sp</item>
+        <!-- Add more attributes as needed -->
+    </style>
+    <style name="title_1">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textColor">@color/primary_color</item>
+    </style>
+    <style name="btn_text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+    <style name="subTitle_1">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textColor">@color/black_lite</item>
+    </style>
+    <style name="subTitle_4">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textColor">@color/primary_color</item>
+    </style>
+    <style name="subTitle_2">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textColor">@color/sky_color_1</item>
+    </style>
+    <style name="subTitle_5">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textColor">@color/black_lite</item>
+    </style>
+</resources>

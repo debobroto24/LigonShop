@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LigonShop</string>
+    <string name="login">Login</string>
+    <string name="get_started">Get Started</string>
+    <string name="helper">Helper</string>
+    <string name="sign_in">Sign in</string>
+    <string name="apple_sign">Sign in with Apple</string>
+    <string name="google_sign">Sign in with Google</string>
+    <string name="sign_up_link">Email me signup Link </string>
+    <string name="size">Select Size</string>
+    <string name="color">Select Color</string>
+    <string name="new_here">New around here?</string>
+
+    <string name="helper_text">Your every day helper and suggestor</string>
+</resources>

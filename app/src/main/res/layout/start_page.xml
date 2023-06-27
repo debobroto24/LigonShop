@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context="activities.StartPage">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_80" />
+    <ImageView
+        android:layout_width="@dimen/dim_150"
+        android:layout_height="@dimen/dim_150"
+        android:src="@drawable/frame" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/helper_text"
+        style="@style/subTitle_5"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_40" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/helper"
+        style="@style/title_1"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_100" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_started"
+        android:background="@drawable/button_style_1"
+        style="@style/btn_text" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_20" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:background="@drawable/button_style_3"
+        android:elevation="10dp"
+        style="@style/subTitle_4" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_60" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_here"
+            style="@style/subTitle_1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in"
+            style="@style/subTitle_4"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
