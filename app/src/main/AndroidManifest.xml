@@ -11,11 +11,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LigonShop"
         tools:targetApi="31">
+<!--        <activity-->
+<!--            android:name="activities.HomeActivity"-->
+<!--            android:exported="false" />-->
         <activity
-            android:name=".LoginActivity"
+            android:name="activities.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".StartPage"
+
+            android:name="activities.HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

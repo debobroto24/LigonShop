@@ -1,9 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="activities.LoginActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    tools:context="activities.LoginActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="70dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_in"
+                style="@style/title_1"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/apple_sign"
+                android:background="@drawable/button_style_3"
+                android:elevation="8dp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/google_sign"
+                android:background="@drawable/button_style_3"
+                android:elevation="8dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get a link with"
+                style="@style/subTitle_2"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+
+            <EditText
+                android:id="@+id/email_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="12"
+                android:hint="Enter Your Email"
+                style="@style/subTitle_1"
+                android:background="@drawable/button_style_3"
+                android:elevation="8dp"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="10dp"
+                android:inputType="text"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/btn_text"
+                android:text="@string/google_sign"
+                android:background="@drawable/button_style_1"
+                android:elevation="8dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="80dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You are completly safe"
+                style="@style/subTitle_1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Read our terms and condition"
+                style="@style/subTitle_2"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
